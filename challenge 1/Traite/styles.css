@@ -1,0 +1,118 @@
+*{
+    font-family: "Red Hat Display", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: repeat-x url(/images/pattern-background-desktop.svg),hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    padding: 0%;
+
+}
+p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+section.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5%;
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+}
+
+img.hero_image{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+div.others{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0% 30px;
+    /* background: lime; */
+}
+
+h1.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+div.icon_price_change{
+    display: flex;
+    /* background: lime; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    
+}
+div.icon_price{
+    display: flex;
+    margin-left: 20px;
+}
+div.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    
+}
+div.price p{
+    margin: 0%;
+    line-height: 20px;
+}
+p#annual{
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+}
+#change{
+    color:hsl(245, 75%, 52%);
+    font-weight: bold;
+    margin-right: 20px;
+}
+#change:hover{
+    text-decoration: none;
+    color:hsla(245, 75%, 60%, 0.753);
+}
+a.payment{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 15px;
+    font-weight: bold;
+}
+a.payment:hover{
+    background-color: hsla(245, 75%, 60%, 0.753);
+}
+#cancel{
+    text-decoration: none;
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);
+}
+#cancel:hover{
+    color: hsla(223, 47%, 23%, 0.459);
+}
+                      
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+@media(max-width:775px){
+    section.card{
+        width: 340px;
+        height: auto;
+    }
+}

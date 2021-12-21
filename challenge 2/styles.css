@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:hsl(216, 50%, 16%);
+}
+
+
+.card{
+    /* display: flex;
+    flex-direction: column; */
+    width: 250px; 
+    background-color: lime;
+    padding: 30px;
+    background-color:hsl(217, 54%, 11%);
+    margin-top: 7%;
+    border-radius:10px;
+    
+    
+}
+img{
+    width: 100%;
+    border-radius:10px;
+}
+
+
+div.icon_price{
+    display: flex;
+    flex-direction: row;
+    /* background-color: lime; */
+    
+}
+.ethereum_icon{
+    width: 100%;
+    /* margin-right: 15px; */
+    /* background-color: white; */
+}
+.price{
+    margin-left: 10px;
+    color: hsl(179, 100%, 50%);
+    font-weight: 600;
+}
+.icon_day{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+    /* background-color: red; */
+}
+.clock_icon{
+    width:18px;
+    background-color:rgb(151, 139, 139) ;
+    margin:0%;
+
+}
+.day{
+    background-color: blueviolet;
+    margin:0%;
+}
+
+.price_day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 70px;
+}
+/* footer{
+    position: absolute;
+    bottom: 0%;
+    
+} */
